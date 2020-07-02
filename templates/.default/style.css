@@ -1,0 +1,128 @@
+/* Informer Block */
+.informer-sd {
+  background-color: #fff;
+  color: #787c83;
+}
+.informer-sd__head,
+.informer-sd__weather,
+.informer-sd__item {
+  padding: 10px;
+}
+
+/* Informer Head */
+.informer-sd__city {
+  font-size: 125%;
+  font-weight: 700;
+}
+
+.informer-sd__weather::after,
+.informer-sd__item::after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+}
+.informer-sd__weather,
+.informer-sd__item {
+  font-size: 0;
+  text-align: justify;
+}
+.informer-sd__weather *,
+.informer-sd__item * {
+  font-size: 12px;
+}
+
+/* Informer Weather */
+.informer-sd__weather {
+  background-color: #f53131;
+  color: #fff;
+}
+.informer-sd__forecast,
+.informer-sd__icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.informer-sd__temperature {
+  font-size: 300%;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 2px #aaa;
+}
+.informer-sd__visibility {
+  color: #eee;
+}
+.informer-sd__temperature,
+.informer-sd__visibility {
+  display: block;
+  text-align: left;
+}
+.informer-sd__icon {
+  display: inline-block;
+  text-align: right;
+}
+
+/* Informer List */
+.informer-sd__item {
+  border-top: 1px solid #f3efed;
+  border-bottom: 1px solid #e9e6e5;
+}
+.informer-sd__item-date,
+.informer-sd__item-icon,
+.informer-sd__item-temperature {
+  display: inline-block;
+  vertical-align: middle;
+}
+.informer-sd__item-date {
+  text-align: left;
+  width: 45%;
+}
+.informer-sd__item-icon {
+  text-align: center;
+  width: 40px;
+}
+.informer-sd__item-temperature {
+  text-align: right;
+  width: 85px;
+}
+
+/* Icons weather */
+.informer-sd__icon > img,
+.informer-sd__item-icon > img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.informer-sd__icon > img {
+  max-height: 120px;
+}
+.informer-sd__item-icon > img {
+  max-height: 40px;
+}
+
+/* Chart */
+.chart-sd {
+  border: 1px solid #f8f4f2;
+}
+.chart-sd__title {
+  background-color: #f8f4f2;
+  color: #787c83;
+  font-size: 125%;
+  padding: 10px;
+}
+.chart-sd__area {
+  padding: 10px;
+}
+
+/*.chart-sd__measure {
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  text-align: center;
+}
+.chart-sd__measure > span {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}*/
